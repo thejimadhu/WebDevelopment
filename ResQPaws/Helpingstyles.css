@@ -1,0 +1,138 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+outline:none;
+}
+body{
+	font-family:'Poppins';
+	width:100%;
+	min-height:100vh;
+	place-items:center;
+	
+}
+.rowbody{
+	width:100%;
+	
+	display:grid;
+	grid-template-columns:repeat(2,1fr);
+	grid-gap:5px; 
+	overflow-x:hidden;
+	padding:5rem 10;
+	
+	
+}
+.rowbody .imagewrapper{
+	overflow:hidden;
+	
+}
+
+.rowbody .imagewrapper img{
+	width:70%;
+	height:100%;
+	object-fit:cover;
+	transition:0.3s;
+	padding-left:0px;
+	margin-left:50px;
+	border-radius:25px;
+	border:1px solid red;
+}
+.rowbody.imagewrapper:hover img{
+	transform:scale(1.25);
+	
+}
+.rowbody .contentwrapper{
+	width:90%;
+	height:-40%;
+	
+	justify-content:center;
+	align-items:center;
+	padding-left:-30px;
+}
+
+.rowbody .contentwrapper span.textwrapper{
+	display:block;
+	font-size:30px;
+	text-transform:capitalize;
+	display:flex;
+	justify-content:flex;
+	align-items:center;
+	gap:25px;
+	margin-bottom:20px;
+	
+}
+.rowbody .contentwrapper span.textwrapper span{
+	
+	display:inline-block;
+	background:yellow;
+	width:70px;
+	height:5px;
+}
+.rowbody .contentwrapper h2{
+	font-size:40px;
+	font-weight:700;
+	color:pink;
+	padding-bottom:20px;
+	
+}
+.aboutp p{
+	font-size:36px;
+	line-height:15px;
+	padding-bottom:25px;
+}
+
+.rowbody .contentwrapper a{
+	
+	display:inline-block;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-weight:700;
+	color:black;
+	padding:15px 4;
+	padding-top:0px;
+	border-radius:5px;
+	font-size:8px;
+}
+.missionh2{
+	display:inline;
+	font-size:20px;
+	
+}
+
+	button[type="submit"] {
+        background-color: #671D67;
+        border: none;
+        color: white;
+        padding: 10px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 11px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+
+    
+    button[type="reset"] {
+        background-color: #671D67; 
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 11px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+    }
+	
+	.donatepara{
+		font-size: 16px;
+        line-height: 1.5;
+        color: #333;
+        margin-bottom: 20px;
+		
+		
+	}

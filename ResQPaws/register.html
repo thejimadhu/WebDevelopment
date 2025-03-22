@@ -1,0 +1,530 @@
+<html>
+<head>
+<title>Animal Details</title>
+<link href="register.css" rel="stylesheet" type="text/css">
+<link href="register2.css" rel="stylesheet" type="text/css">
+<link rel="icon" type="image/jpg" href="favicon.jpg">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Lora&family=Merriweather:wght@300&family=Old+Standard+TT&family=Playfair+Display:wght@400;500&family=Tangerine&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Lobster&family=Lora&family=Merriweather:wght@300&family=Old+Standard+TT&family=Playfair+Display:wght@400;500&family=Tangerine&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Lobster&family=Lora&family=Merriweather:wght@300&family=Old+Standard+TT&family=Playfair+Display:wght@400;500&family=Tangerine&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=Caveat:wght@400..700&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Lobster&family=Lora&family=Merriweather:wght@300&family=Old+Standard+TT&family=Playfair+Display:wght@400;500&family=Tangerine&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<style>
+
+	
+	
+						
+		#div2{
+	background-color:white;sec
+				width:100%;
+				float:bottom;
+				height:100%;
+	}
+	#div1{
+			background-color:#8ECDE2;top
+			width:100%;
+			float:bottom;
+			height:100px;
+			display: block;
+           
+			padding:0px;
+			
+
+		}
+		
+		#div3{
+			
+			width:100%;
+			margin:0 auto;
+			height:350px;
+			}
+			
+	#div4{
+			background-color:red;bot
+			width:100%;
+			margin:0 auto;
+			height:50px;			
+	}	
+		
+		
+		
+		
+
+		
+		.button{
+			background-color:white;
+			margin-left:10px;
+			border-radius:10px;
+			padding-top:-5px;
+			border:0;
+			margin:10px;
+			width:10%;
+			float:right;
+			height:50px;
+			
+		}
+		.button a{
+			color:pink;
+			font-weight:bold;
+			font-size:15px;
+			padding:5px;
+			text-align:center;
+			padding:0px;
+			margin:10px;
+			cursor:url(iconmonstr-cat-7-24.png),auto;
+			
+		}
+		
+		.button a:hover{
+		background-color:white;
+		border:0;
+		width:50%;
+		padding:5px 5px 5px 5px;
+		margin:5px 5px 5px 5px;
+		padding-left:5px;
+		margin-left:25px;
+		}
+		
+	
+
+	
+	@keyframes slide{
+	0%{
+	transform:translateX(0);
+	
+	}
+	
+	25%{
+	transform:translateX(0);
+	
+	}
+	30%{
+	transform:translateX(-100%);
+	
+	}
+	50%{
+	transform:translateX(-100%);
+	
+	}
+	55%{
+	transform:translateX(-200%);
+	
+	}
+	75%{
+	transform:translateX(-200%);
+	
+	}
+	80%{
+	transform:translateX(-300%);
+	
+	}
+	100%{
+	transform:translateX(-300%);
+	
+	}
+	}
+	
+	.slider{
+	min-height: 10vh;
+	width: 100%;
+	height:100%;
+	background-image: linear-gradient(rgba(3,8,29,0.6),rgba(3,8,29,0.6)), url(w.jpg);
+	cursor:url(iconmonstr-cat-7-24.png),auto;
+	
+	<!--animation:slide 16s infinite;-->
+	
+}
+
+
+.quote {
+    text-align: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 1;
+    color: #555;
+    margin-top: 2px;
+	margin-left:-25px;
+	font-weight:700;
+	font-family: "Dancing Script", cursive;
+}
+
+	.zoom-effect {
+    position: relative;
+    overflow: hidden;
+	}
+
+	.zoom-effect:hover img {
+		transform: scale(1.1); 
+		transition: transform 0.10s ease;
+	}
+
+	.hover-text {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		opacity: 0;
+		transition: opacity 0.10s ease; 
+	}
+
+	.zoom-effect:hover .hover-text {
+		opacity: 1;
+	}
+	
+	.container{
+	max-width:300px;
+	height:310px;
+	margin:0 auto;
+	padding:5px 10px;
+	background-color:white;
+	boder-radius:50%;
+	
+	}
+	
+	footer{
+	width:100%;
+	position:absolute;
+	bottom:-910;
+	background:linear-gradient(to right,#00093c,#2d0b000);
+	color:BLACK;
+	padding:50px 0 5px;
+	border-top-left-radius:255px;
+	font-size:13px;
+	line-height:20px;
+	background-color:#8ECDE2;
+	
+	}
+	.row{
+	
+	width:75%;
+	margin:auto;
+	display:flex;
+	flex-wrap:wrap;
+	align-items:flex-start;
+	justify-content:space-between;
+	font-size:20px;
+	
+	}
+	.col{
+	flex-basis:22%;
+	padding:5px;
+	}
+	
+	.linkalign{
+	margin:10px -40px;
+	}
+	.col P{
+		width:fit-content;
+		margin-bottom:10px;
+		position:relative;
+		padding-top:10;
+	}
+	.col h2{
+		width:fit-content;
+		margin-bottom:40px;
+		position:relative;
+	
+	}	
+	
+	ul li{
+		list-style:none;
+		margin-bottom:12px;
+		
+	}	
+
+	ul li a{
+		text-decoration:none;
+		color:black;
+		cursor:url(iconmonstr-cat-7-24.png),auto;
+
+		}
+	ul li a:hover{
+		
+		color:white;
+		cursor:url(iconmonstr-cat-7-24.png),auto;
+
+		}
+	
+	
+	.more{
+	text-align:right;
+	color:black;
+	background-color:gold;	
+	width:55%;
+	height:30px;
+	padding:9px 70px;
+	text-decoration:none;
+	border-radius:16px;
+	margin-right:10px;
+	margin:10;
+	letter-spacing:3px;
+	text-transform:uppercase;
+	}
+	
+	
+	
+	}
+	
+	.petcare{
+	color:white;
+	font-family: 'Playfair Display', serif;
+	font-weight:bold;
+	
+	}
+	.PETCARE{
+	font-family: 'Playfair Display', serif;
+	font-weight:bold;
+	}
+	
+	.visit{
+		 font-size:20px;
+		 text-align:center;
+		 top-margin:-3px;
+		 
+		 color:black;
+		 font-size:20px;
+		 text-align:center;
+		 padding:-5px 5px 3px 5px ;
+		
+		 
+		 vertical-align:center-top;
+		 padding-top:-30px;
+		 
+		 
+		font-family: 'Playfair Display', serif;
+		font-weight:bold;
+		}
+		
+		
+	.container{
+	max-width:300px;
+	height:310px;
+	margin:0 auto;
+	padding:5px 10px;
+	background-color:white;
+	boder-radius:50%;
+	
+	}
+	
+	.map-container{
+	position:relative;
+	width:100%;
+	height:30;
+	padding-bottom:85%;
+	}
+	iframe{
+	position:absolute;
+	top:10;
+	left:5;
+	width:100%;
+	height:100%;
+	padding-bottom:20;
+	
+	}
+</style>
+</head>
+<body class="bodysp">
+
+<div id="div1">
+<nav class="navbar zoom-effect" >
+	<ul>
+	<li><img class="gif "src="logo.png" length="150" width="150"></a></li>
+	<li><a href="Home.html">Home</a></li>
+	<li><a href="Aboutus.html">About Us</a></li>
+	<li><a href="animal details.html">Animal Details</a></li>
+	<li><a href="register.html">Register</a></li>
+	<li><a href="Helpinghands.html">Helping Hands</a></li>
+	<li><a href="PetMart.html">Animal Products</a></li>
+	
+	<button class="button"><a href="register.html">Join</a></button>
+	
+	
+	</ul>
+</nav> 
+</div>
+
+<!--REGISTERbody-->
+<div id="div2">
+
+		<div class="rowbody">
+			<center><h2>User & Animal Details</h2></center>
+      
+    <form id="form" method="post" onsubmit="return validateForm()" action="form.php"
+    enctype="multipart/form-data">
+      <fieldset>
+
+    <legend><b>User Info<b></legend>
+    
+    <label for="user-name">Name:</label><br>
+        <input type="text" name="user-name" id="user-name" placeholder="Jane Smith" size="20" maxlength="30"> <br>
+          <label for="user-num">Contact number:</label><br>
+          <input type="tel" name="user-num" id="user-num" placeholder="011-123456" size="20" maxlength="11"> <br>
+          <label for="user-address">Address:</label><br>
+          <input type="text" name="user-address" id="user-address" placeholder="Galborella,Horadugoda,Imaduwa" size="20" maxlength="300" ><br><br>
+    </fieldset>
+    
+    <fieldset>
+      <legend>Animal Info</legend>
+
+   Upload Photo<br><br>
+          <label for="photo">Select photo:</label>
+          <input type="file" name="photo" id="photo" accept="image/*">
+          <br>
+          <label for="species">Species:</label><br>
+          <select name="species" id="species"><br>
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+        <option value="other">Other</option>
+          </select>
+          <br>
+          
+    <label for="ani-name">Name:</label><br>
+      <input type="text" name="ani-name" id="ani-name" placeholder="Tommy" size="20" maxlength="30"> <br>
+      <label for="ani-num">Contact number:</form><br>
+      <input type="tel" name="ani-number" id="ani-number" placeholder="011-123456" size="20" maxlength="11"> <br>
+      <label for="ani-address">Address:</form><br>
+      <input type="text" name="ani-address" id="ani-address" placeholder="Galborella,Horadugoda,Imaduwa" size="20" maxlength="300" ><br><br>
+      <label for="district">Choose the district:</label><br>
+      <select name="district" id="district">
+        <option value="ampara">Ampara</option>
+        <option value="anuradhapura">Anuradhapura</option>
+        <option value="badulla">Badulla</option>
+        <option value="batticaloa">Batticaloa</option>
+        <option value="colombo">Colombo</option>
+        <option value="galle">Galle</option>
+        <option value="gampaha">Gampaha</option>
+        <option value="hambanthota">Hambanthota</option>
+        <option value="jaffna">Jaffna</option>
+        <option value="kaluthara">Kaluthara</option>
+        <option value="kandy">Kandy</option>
+        <option value="kegalle">Kegalle</option>
+        <option value="kilinochchi">Kilinochchi</option>
+        <option value="kurunagala">Kurunagala</option>
+        <option value="mannar">Mannar</option>
+        <option value="matale">Matale</option>
+        <option value="matara">Matara</option>
+        <option value="monaragala">Monaragala</option>
+        <option value="mulathiv">Mulathiv</option>
+        <option value="nuwara-eliya">Nuwara-eliya</option>
+        <option value="polonnaruwa">Polonnaruwa</option>
+        <option value="puttalam">Puttalam</option>
+        <option value="ratnapuna">Ratnapuna</option>
+        <option value="trincomalee">Trincomalee</option>
+        <option value="vavniya">Vavniya</option>
+      </select><br><br>
+      <label for="availability">Availability:</label><br>
+      <input type="radio" name="availability" id="availability" value="yes">YES
+      <input type="radio" name="availability" id="availability" value="no">NO
+      
+      </fieldset>
+      
+      <input type="submit" value="Submit">
+      <input type="reset" value="Clear">
+    </form>
+      <script>
+function validateForm() {
+  var user_name = document.getElementById("user-name").value;
+  var user_num = document.getElementById("user-num").value;
+  var user_address = document.getElementById("user-address").value;
+  var species = document.getElementById("species").value;
+  var ani_number = document.getElementById("ani-number").value;
+  var ani_address = document.getElementById("ani-address").value;
+  var district = document.getElementById("district").value;
+  var availability = document.getElementById("availability").value;
+  user_num = user_num.replace(/\D/g, '');
+  ani_number = ani_number.replace(/\D/g, '');
+  
+  if (user_name === "" || user_num === "" || user_address === "" ||species=== "" ||ani_number=== "" ||  ani_address=== "" || district==="" ||availability==="" || user_num.length !== 10 || isNaN(user_num)
+ || ani_number.length !== 10 || isNaN(ani_number)) {
+    alert("Fill the form CORRECTLY.");
+    alert("Uploading an image and puting a name for animal is not necessary");
+    return false;
+  }
+}
+</script>	
+		</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--footer-->
+
+<footer>
+	<div class="row">
+		<div class="col">
+			<img src="logo.png" length="150" width="150"" alt="" class="logo" >
+			<p class="quote">"Empowering compassion, one rescue at a time, to create a world where every animal's 
+			tale ends in safety and love."</p>
+		</div>
+		<div class="col">
+			<h3>INFORMATION</h3>
+			<p>45/b</p>
+			<p>Thorana Junction</p>
+			<p>Kelaniya</p>
+			<p>paw@gmail.com</p>
+			<p>+9472588456</p>
+		</div>
+		<div class="col">
+			<h3>LINKS</h3>
+			<ul class="linkalign">
+				<li><a href="Home.html">Home </a></li>
+				<li><a href="Aboutus.html">About US</a></li>
+				<li><a href="animal details.html">Animal Details</a></li>
+				<li><a href="register.html">Register</a></li>
+				<li><a href="Helpinghands.html">Helping Hand</a></li>
+				<li><a href="PetMart.html">Animal Products</a></li>
+			</ul>
+		</div>
+		<div class="col">
+			<div class="container">
+			<table class="center-alignment"><tr ><th align="center"class="visit" rowspan="3">Visit Us</th></tr></table>
+				
+			<div class="map-container">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7920.893419391628!2d79.92044355!3d6.9565152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25789f736ff2f%3A0x7b61e230dd11e6ec!2sKelaniya%2C%20Peliyagoda!5e0!3m2!1sen!2slk!4v1706582259353!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>			
+			</div>
+			</div>
+		
+		</div>
+		
+		
+	</div>
+</footer>
+
+	
+	
+
+	
+<!--last line-->
+<div class="footerd">
+&copy;2021 <span class="PAW"><b>PAW</b></span> 11600.Designed By Team <span class="PETCARE">PAW</span>
+</div>
+
+</table>
+
+</body>
+</html>

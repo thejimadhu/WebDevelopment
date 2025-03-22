@@ -1,0 +1,67 @@
+
+
+		
+		
+		.gif{
+		padding:10px;
+		margin-top:5px;
+		border-radius:50%;
+		
+		}
+body {
+  font-family: Arial, sans-serif;
+}
+
+form {
+  width: 60%;
+  margin: auto;
+}
+
+fieldset {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+
+legend {
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="file"],
+select {
+  width: calc(100% - 12px);
+  padding: 6px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #45a049;
+}
+
+.error {
+  color: red;
+}
