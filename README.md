@@ -2,7 +2,7 @@
 ResQPaws PetCare Donation website
 
 🌟 Project Overview:
-Thrilled to share my experience developing a dynamic website for ResqPaws, a pet donation society, as part of my 2nd-year university project.This project was an incredible opportunity to blend technical expertise with a passion for animal welfare.
+Thrilled to share my experience developing a dynamic website for ResqPaws, a pet donation society, as part of my 2nd-year university group project.This project was an incredible opportunity to blend technical expertise with a passion for animal welfare.
 
 🔧 Development Tool:
 Leveraging the power of Visual Studio Code as my development environment, I utilized a robust tech stack to bring this project to life.
